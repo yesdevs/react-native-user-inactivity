@@ -27,15 +27,15 @@
   "author": "Alberto Schiabel (https://github.com/jkomyno)",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^18.2.6",
-    "@types/react-native": "^0.72.0",
+    "@types/react": "^18.2.15",
+    "@types/react-native": "^0.72.2",
     "@types/react-native-background-timer": "^2.0.0",
     "react-native-background-timer": "^2.4.1",
-    "rimraf": "^5.0.0",
-    "tslib": "^2.5.0",
+    "rimraf": "^5.0.1",
+    "tslib": "^2.6.0",
     "tslint": "^5.20.1",
     "tslint-react": "^4.1.0",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.6",
     "ws": ">=8.13.0"
   },
   "peerDependencies": {
