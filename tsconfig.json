@@ -2,8 +2,8 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "./lib",
-    "target": "es2017",
-    "module": "es2015",
+    "target": "es5",
+    "module": "commonjs",
     "outDir": "./lib",
     "baseUrl": ".",
     "sourceMap": false,
@@ -15,12 +15,17 @@
     "noEmitHelpers": true,
     "importHelpers": true,
     "strict": true,
-    "noImplicitReturns": true
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/__tests__/*",
+    "react-native"
   ]
 }
