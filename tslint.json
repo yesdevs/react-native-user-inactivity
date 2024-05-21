@@ -1,6 +1,7 @@
 {
   "extends": ["tslint:recommended", "tslint-react"],
   "rules": {
+    "no-shadowed-variable": false,
     "member-access": false,
     "no-console": false,
     "interface-name": false,

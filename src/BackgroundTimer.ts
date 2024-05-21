@@ -1,5 +1,5 @@
 import BackgroundTimer from 'react-native-background-timer';
-import { TimeoutHandler } from './useTimeout';
+import type { TimeoutHandler } from './useTimeout';
 
 /**
  * defaultBackgroundTimer implements the TimeoutHandler interface with the native timer

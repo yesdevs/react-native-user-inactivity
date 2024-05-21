@@ -28,7 +28,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.3.2",
-    "@types/react-native": "^0.72.2",
     "@types/react-native-background-timer": "^2.0.2",
     "react-native-background-timer": "^2.4.1",
     "rimraf": "^5.0.7",
@@ -40,7 +39,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-native": "^0.72.3",
+    "react-native": "^0.74.1",
     "react-native-background-timer": "^2.4.1"
   }
 }
