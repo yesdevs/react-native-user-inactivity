@@ -1,4 +1,4 @@
-import BackgroundTimer from 'react-native-background-timer';
+import BackgroundTimer from './BackgroundTimerClass';
 import type { TimeoutHandler } from './useTimeout';
 
 /**
